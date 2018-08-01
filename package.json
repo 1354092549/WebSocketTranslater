@@ -1,0 +1,32 @@
+{
+  "name": "ws-translater",
+  "bin": {
+    "wst": "./wst.js"
+  },
+  "version": "1.0.1",
+  "description": "A translator between WebSocket and Tcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1354092549/WebSocketTranslater.git"
+  },
+  "homepage": "https://github.com/1354092549/WebSocketTranslater#readme",
+  "dependencies": {
+    "ws": "^6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/1354092549/WebSocketTranslater/issues"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node wst.js"
+  },
+  "keywords": [
+    "WebSocket",
+    "Translater",
+    "Proxy",
+    "Agent",
+    "Bridge"
+  ],
+  "author": "QIQI",
+  "license": "MIT"
+}
